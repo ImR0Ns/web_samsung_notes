@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+input, textarea {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #97CAEF;
+}
+.add_note_butt {
+    cursor: pointer;
+    color: #97CAEF;
+    width: 100px;
+}
+.cDesign {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.design {
+    border: 2px solid #3FEEE6;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #FC4445;
+}
+div .editTone {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.note_title {
+    text-align: center;
+}
+.note_desc {
+    width: 200px;
+}
